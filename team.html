@@ -1,169 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team 4</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team 4
+    </title>
     <style>
-      /* Gaya untuk latar belakang */
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-      }
+        /* Gaya untuk latar belakang */
+        body {
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
-      /* Gaya untuk navbar */
-      /* .navbar {
+        /* Gaya untuk navbar */
+        .navbar {
             background-color: #dd1919;
             overflow: hidden;
-        } */
+        }
 
-      .navbar a {
-        float: left;
-        font-size: 18px;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-      nav .container .collapse :hover {
-        color: #dd1919;
-      }
+        .navbar a {
+            float: left;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
 
-      /* .navbar a:hover {
+        .navbar a:hover {
             background-color: #ddd;
             color: black;
-        } */
+        }
 
-      /* Gaya untuk konten utama */
-      .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 20px;
-      }
+        /* Gaya untuk konten utama */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
 
-      .gallery-item {
-        margin: 20px;
-        border: 1px solid #ccc;
-        padding: 10px;
-        text-align: center;
-        background-color: #fff;
-      }
+        .gallery-item {
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+        }
 
-      /* Gaya untuk foto */
-      .gallery-item img {
-        width: 300px; /* Lebar foto */
-        height: 400px; /* Tinggi foto (sesuai dengan rasio 3:4) */
-        object-fit: cover;
-      }
+        /* Gaya untuk foto */
+        .gallery-item img {
+            width: 300px; /* Lebar foto */
+            height: 400px; /* Tinggi foto (sesuai dengan rasio 3:4) */
+            object-fit: cover;
+        }
 
-      /* Gaya untuk footer */
-      .footer {
-        position: relative;
-        overflow: auto;
-        width: 100%;
-        background: #7a0101;
-        min-height: 100px;
-        padding: 20px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 40px;
-      }
-      .footer p {
-        color: #fff;
-        margin: 15px 0 10px 0;
-        font-size: 1rem;
-        font-weight: 300;
-      }
+        /* Gaya untuk footer */
+        .footer {
+            background-color: #dd1919;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
     </style>
-  </head>
-  <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light shadow-sm"
-      style="min-height: 15vh; font-weight: 500"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://raw.githubusercontent.com/royraflesmatorangpasaribu/webpancasila.github.io/master/%E2%80%94Pngtree%E2%80%94garuda%20pancasila%20emblem%20logo%20of_7954658.png"
-            alt="Logo"
-            width="30"
-            height="30"
-            class="d-inline-block align-text-top me-2"
-          />
-          Pendidikan Pancasila
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="modul.html">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active text-danger"
-                aria-current="page"
-                href="team.html"
-                >Tentang Kami</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Logout</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+</head>
+<body>
+    <div class="navbar">
+        <a href="modul.html">Beranda</a>
+        <a href="team.html">Tentang Kami</a>
+        <a href="index.html">Logout</a>
+    </div>
+    
     <div class="gallery">
-      <div class="gallery-item">
-        <img src="admin.png" alt="Foto 1" />
-        <p>Roy Rafles Matorang Pasaribu - 2117051058</p>
-      </div>
-      <div class="gallery-item">
-        <img src="admin.png" alt="Foto 2" />
-        <p>Keterangan untuk Foto 2</p>
-      </div>
-      <div class="gallery-item">
-        <img src="admin.png" alt="Foto 3" />
-        <p>Keterangan untuk Foto 3</p>
-      </div>
-      <div class="gallery-item">
-        <img src="admin.png" alt="Foto 4" />
-        <p>Keterangan untuk Foto 4</p>
-      </div>
-      <div class="gallery-item">
-        <img src="admin.png" alt="Foto 5" />
-        <p>Keterangan untuk Foto 5</p>
-      </div>
-      <div class="gallery-item">
-        <img src="admin.png" alt="Foto 6" />
-        <p>Keterangan untuk Foto 6</p>
-      </div>
+        <div class="gallery-item">
+            <img src="admin.png" alt="Foto 1">
+            <p>Roy Rafles Matorang Pasaribu - 2117051058</p>
+        </div>
+        <div class="gallery-item">
+            <img src="admin.png" alt="Foto 2">
+            <p>Keterangan untuk Foto 2</p>
+        </div>
+        <div class="gallery-item">
+            <img src="admin.png" alt="Foto 3">
+            <p>Keterangan untuk Foto 3</p>
+        </div>
+        <div class="gallery-item">
+            <img src="admin.png" alt="Foto 4">
+            <p>Keterangan untuk Foto 4</p>
+        </div>
+        <div class="gallery-item">
+            <img src="admin.png" alt="Foto 5">
+            <p>Keterangan untuk Foto 5</p>
+        </div>
+        <div class="gallery-item">
+            <img src="admin.png" alt="Foto 6">
+            <p>Keterangan untuk Foto 6</p>
+        </div>
     </div>
 
-    <footer class="footer">
-      <p>&copy;2023 Kelompok 4 | Ilmu Komputer</p>
-    </footer>
-  </body>
+    <div class="footer">
+        &copy; 2023 kelompok 4 Ilmu Komputer 2021
+    </div>
+</body>
 </html>
