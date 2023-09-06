@@ -35,9 +35,15 @@ body {
 
 /* Gaya untuk konten utama */
 .content {
-    text-align: left;
+    text-align: center;
     color: #000000;
-    padding: 100px;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.video{
+    width: 250px;
+    height: 200px;
 }
 
 /* Gaya untuk footer */
@@ -46,10 +52,19 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 270px;
+    margin-top: 225px;
 }
 
 @media (min-width: 500px) {
+
+    .content{
+        margin-top: 100px;
+    }
+
+    .video{
+        width: 420px;
+        height: 315px;
+    }
 
     .footer {
         position: absolute;
