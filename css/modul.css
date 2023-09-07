@@ -1,15 +1,8 @@
 /* Gaya untuk latar belakang */
 body {
-    /* gaada img nya di folder */
-    /* background-image: url('background-image.jpg');
-    background-size: cover;
-    background-position: center; */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    
-    /* kalo content-nya banyak dan harus di-scroll, command code ini */
-    /* lalu pada footer position : relative */
     overflow: hidden;
 }
 
@@ -35,10 +28,24 @@ body {
 
 /* Gaya untuk konten utama */
 .content {
-    text-align: center;
-    color: #000000;
-    margin-top: 150px;
     width: 100%;
+    display: flex;
+}
+.section-left{
+    width: 60%;
+    height: 80vh;
+    padding-top: 130px;
+    padding-left: 100px;
+    /* background-color: skyblue; */
+
+}
+
+.section-right{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .video{
@@ -56,10 +63,6 @@ body {
 }
 
 @media (min-width: 500px) {
-
-    .content{
-        margin-top: 100px;
-    }
 
     .video{
         width: 420px;
